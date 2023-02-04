@@ -7,7 +7,7 @@ import copy
 
 import pygsheets
 
-path_to_json = 'filepath'
+path_to_json = 'customs_data/'
 
 def getTotalTeamKills(totalStats, team):
   kills = 0
