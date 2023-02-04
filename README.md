@@ -4,7 +4,7 @@ This script takes data from custom League of Legends games and outputs them onto
 ## How to Use
 1. Download [ReplayBook](https://github.com/fraxiinus/ReplayBook). This will let you download json files containing replay data from your saved League of Legends replays.
 
-2. Use ReplayBook to export data as a json from each game into a folder (you can just export everything, or create a preset and only export desired fields if you want to keep file sizes small).
+2. Use ReplayBook to export data as a json from each game into a folder (you can just export everything, or create a preset and only export desired fields if you want to keep file sizes small). There should be a /cache/export_presets/ folder in the same directory as ReplayBook where you can place the "custom_fields.json" file so you can export using the preset made for this script.
 
 3. Setup [pygsheets](https://pygsheets.readthedocs.io/en/stable/authorization.html).
 
